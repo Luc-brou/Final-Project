@@ -37,7 +37,8 @@ const Search = () => {
 
       {matchedRecipe && (
         <Card>
-          <Card.Img variant="top" src={matchedRecipe.image} alt={matchedRecipe.name} />
+        <Card.Img variant="top" src={matchedRecipe.image} 
+        alt={matchedRecipe.name} style={{ width: 'auto', height: 'auto', maxWidth: '100%' }} />
           <Card.Body>
             <Card.Title>{matchedRecipe.name}</Card.Title>
             <Card.Text>
