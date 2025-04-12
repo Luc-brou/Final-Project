@@ -1,1 +1,0 @@
-//this is meant to show data being fetched, and search bar can be on different file.

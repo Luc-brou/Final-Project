@@ -1,0 +1,13 @@
+@import '../bootstrapCSS/variables.scss';  
+
+.ftext {
+  font-family: $ftext;   
+  font-style: italic;    
+  font-size: 14px;
+  color: #333;
+};
+
+.bcolor {
+  background-color: $color1;
+}
+
